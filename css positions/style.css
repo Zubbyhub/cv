@@ -1,0 +1,31 @@
+.relative{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: sticky;
+    top: 0;
+}
+.icon{
+    font-size: 35px;
+    position: fixed;
+    top: 500px;
+    left: 1000px;
+}
+.icon:hover{
+    background-color: lightpink;
+    padding: 5px;
+    border-radius: 50%;
+}
+.ancestor{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px grey;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
